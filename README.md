@@ -16,6 +16,29 @@ Check what the CLI finds without installing:
 npx skills add OutrunAIAPI/outrun-skill --list
 ```
 
+### Claude Code plugin
+
+The repo is also a Claude Code plugin marketplace. Inside Claude Code:
+
+```text
+/plugin marketplace add OutrunAIAPI/outrun-skill
+/plugin install outrun@outrun-ai
+```
+
+On Claude Code 2.1.275 or later, one line does both:
+
+```text
+/plugin install outrun --marketplace OutrunAIAPI/outrun-skill
+```
+
+The plugin adds the skill and a `/outrun:setup` command that walks you through connecting a tool.
+
+### Gemini CLI extension
+
+```bash
+gemini extensions install https://github.com/OutrunAIAPI/outrun-skill
+```
+
 ## What the skill covers
 
 - Getting a key and adding balance (card, crypto or a prepaid code; no subscription)

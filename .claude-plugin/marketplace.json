@@ -1,0 +1,18 @@
+{
+  "name": "outrun-ai",
+  "description": "Outrun for Claude Code: set up coding tools with a prepaid pay-as-you-go AI API, one OpenAI-compatible key and a live price feed.",
+  "owner": {
+    "name": "Outrun",
+    "email": "support@outrun.to",
+    "url": "https://outrun.to"
+  },
+  "plugins": [
+    {
+      "name": "outrun",
+      "source": "./",
+      "description": "Set up Claude Code, Codex, OpenCode, Gemini CLI or an OpenAI-compatible SDK with Outrun. Picks models and prices from the live feed and keeps your API key out of the chat.",
+      "category": "development",
+      "tags": ["llm-api", "openai-compatible", "pay-as-you-go", "model-pricing", "setup"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "outrun",
+  "displayName": "Outrun",
+  "version": "1.0.0",
+  "description": "Set up Claude Code, Codex, OpenCode, Gemini CLI or an OpenAI-compatible SDK with Outrun, a prepaid pay-as-you-go AI API: one OpenAI-compatible key, a live price feed, and no subscription.",
+  "author": {
+    "name": "Outrun",
+    "email": "support@outrun.to",
+    "url": "https://outrun.to"
+  },
+  "homepage": "https://outrun.to/?utm_source=claude-plugin&utm_medium=plugin&utm_campaign=skill",
+  "repository": "https://github.com/OutrunAIAPI/outrun-skill",
+  "license": "MIT",
+  "keywords": ["llm-api", "ai-api", "openai-compatible", "pay-as-you-go", "prepaid", "model-pricing", "setup"]
+}
